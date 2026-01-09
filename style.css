@@ -224,6 +224,7 @@ header > div {
 	color: var(--main-yellow);
 	font-family: var(--font-family);
 	text-transform: uppercase;
+	opacity: 0;
 }
 
 .hero {
