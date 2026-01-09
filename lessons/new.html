@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="icon" href="../img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="../style.css">
+	<title>new cards</title>
+</head>
+<body>
+
+	<!-- START common header -->
+	<header>
+		<div class="container">
+			<div class="header__logo"><a href="../index.html"><img src="../img/wordup.logo.png" alt="logo" class="header__img"></a></div>
+			<nav>
+				<ul class="header__ul">
+					<li><a href="../index.html">головна</a></li>
+					<li><a href="course.html">курси</a></li>
+					<li><a href="all.html">уроки</a></li>
+				</ul>
+			</nav>
+			<button class="header__lang">ukr</button>
+		</div>
+	</header>
+	<!-- END common header -->
+	
+	<section class="new">
+		<div class="container">
+			<form id="new__form" class="new__form" action="#" method="POST">
+        <div>
+            <label class="new__label" for="title">Назва</label>
+            <input id="name" class="new__input" type="text" name="title" placeholder="Напишіть назву" required>
+        </div>
+        <div>
+            <label class="new__label" for="course">Курс</label>
+            <select class="new__input" id="course" name="category">
+                <option value="english">English</option>
+                <option value="geography">Geography</option>
+                <option value="it">IT</option>
+            </select>
+        </div>
+    	</form>
+			
+				<button id="create" class="btn__big new__btn" >СТВОРИТИ</button>
+		</div>
+	</section>
+	<script src="../storage.js"></script>
+	<script src="../course.js"></script>
+	<script src="../new2.js"></script>
+</body>
+</html>

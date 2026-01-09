@@ -1,0 +1,62 @@
+[
+  {
+    "term": "Еверест",
+    "translation": "Найвища гора світу — 8848 м",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Монблан",
+    "translation": "Найвища гора в Альпах — 4808 м",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Карпати",
+    "translation": "Гірська система в Центральній та Східній Європі",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Говерла",
+    "translation": "Найвища гора України — 2061 м",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Ніл",
+    "translation": "Найдовша річка світу — приблизно 6650 км",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Амазонка",
+    "translation": "Найповноводніша річка світу",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Дніпро",
+    "translation": "Найбільша річка України — приблизно 2200 км",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Київ",
+    "translation": "Столиця України",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Париж",
+    "translation": "Столиця Франції",
+    "category": "geography",
+    "state": false
+  },
+  {
+    "term": "Токіо",
+    "translation": "Столиця Японії",
+    "category": "geography",
+    "state": false
+  }
+]

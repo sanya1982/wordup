@@ -1,0 +1,32 @@
+[
+  {
+    "name": "lesson 1", 
+    "course": "English", 
+    "count": 15, 
+    "progress": 0
+  },
+  {
+    "name": "lesson 2", 
+    "course": "English", 
+    "count": 15,
+    "progress": 0
+  },
+  {
+    "name": "lesson 3", 
+    "course": "English", 
+    "count": 15, 
+    "progress": 0
+  },
+  {
+    "name": "geography 1", 
+    "course": "Geography", 
+    "count": 10, 
+    "progress": 0
+  },
+  {
+    "name": "IT 1", 
+    "course": "IT", 
+    "count": 10, 
+    "progress": 0
+  }
+]

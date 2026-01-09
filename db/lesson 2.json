@@ -1,0 +1,107 @@
+[
+  {
+    "id": 16,
+    "term": "river",
+    "translation": "річка",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 17,
+    "term": "mountain",
+    "translation": "гора",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 18,
+    "term": "desert",
+    "translation": "пустеля",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 19,
+    "term": "cell",
+    "translation": "клітина",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 20,
+    "term": "energy",
+    "translation": "енергія",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 21,
+    "term": "experiment",
+    "translation": "експеримент",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 22,
+    "term": "alphabet",
+    "translation": "алфавіт",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 23,
+    "term": "grammar",
+    "translation": "граматика",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 24,
+    "term": "dictionary",
+    "translation": "словник",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 25,
+    "term": "nurse",
+    "translation": "медсестра",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 26,
+    "term": "medicine",
+    "translation": "ліки",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 27,
+    "term": "treatment",
+    "translation": "лікування",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 28,
+    "term": "smartphone",
+    "translation": "смартфон",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 29,
+    "term": "robot",
+    "translation": "робот",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 30,
+    "term": "database",
+    "translation": "база даних",
+    "category": "english",
+    "state": false
+  }
+]

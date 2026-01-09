@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="icon" href="../img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="../style.css">
+	<title>Lesson 1 - edit</title>
+</head>
+<body>
+
+	<!-- START common header -->
+	<header>
+		<div class="container">
+			<div class="header__logo"><a href="../index.html"><img src="../img/wordup.logo.png" alt="logo" class="header__img"></a></div>
+			<nav>
+				<ul class="header__ul">
+					<li><a href="../index.html">головна</a></li>
+					<li><a href="course.html">курси</a></li>
+					<li><a href="all.html">уроки</a></li>
+				</ul>
+			</nav>
+			<button class="header__lang">ukr</button>
+		</div>
+	</header>
+	<!-- END common header -->
+	
+	<section class="lessonEdit">
+		<div class="container">
+			<div class="lessonEdit__item lessonEdit__main">
+				<h4 class="addblue">Назва</h4>
+				<h3 id="title"></h3>
+				<h4 class="addblue">Курс</h4>
+				<h3 id="course"></h3>
+				<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M21.5 0C23.3968 0 25.2363 0.245826 26.9883 0.707031V7.31055C27.6873 7.54297 28.3636 7.8254 29.0127 8.15234L33.5264 3.67578C36.0016 5.34917 38.1085 7.5253 39.7031 10.0566L35.4209 14.3037C35.9063 15.1793 36.3068 16.1078 36.6094 17.0791H42.5439C42.8422 18.506 43 19.9846 43 21.5C43 23.0158 42.8423 24.4947 42.5439 25.9219H36.6094C36.3567 26.733 36.0349 27.514 35.6533 28.2598L39.958 32.5283C38.4189 35.0988 36.359 37.3211 33.9229 39.0488L29.4521 34.6172C28.6704 35.0438 27.8467 35.404 26.9883 35.6895V42.292C25.2362 42.7532 23.3969 43 21.5 43C20.3322 43 19.1866 42.9048 18.0693 42.7256V35.9004C16.965 35.5907 15.9125 35.1583 14.9268 34.6211L9.89941 39.6055C7.38287 37.9897 5.22683 35.8624 3.57422 33.3721L8.72266 28.2686C8.33928 27.5204 8.0163 26.736 7.7627 25.9219H0.456055C0.157688 24.4947 0 23.0158 0 21.5C0 19.9846 0.157815 18.506 0.456055 17.0791H7.7627C8.06612 16.105 8.46773 15.1738 8.95508 14.2959L3.84473 9.22852C5.55225 6.77646 7.75686 4.69643 10.3135 3.13574L15.3682 8.14746C16.2249 7.71665 17.1282 7.36353 18.0693 7.09961V0.273438C19.1865 0.0942754 20.3323 0 21.5 0ZM21.5 13.3379C16.9534 13.3379 13.2677 16.9924 13.2676 21.5C13.2676 26.0078 16.9533 29.6621 21.5 29.6621C26.0467 29.6621 29.7324 26.0077 29.7324 21.5C29.7323 16.9924 26.0466 13.3379 21.5 13.3379Z" fill="#184A5F" fill-opacity="0.8"/>
+				</svg>
+			</div>
+			<div class="lessonEdit__item lessonEdit__new">
+            <div class="new__label" for="title">Термін</div>
+            <input id="term" class="new__input mod__input" required>
+            <div class="new__label" for="title">Значення</div>
+            <input class="new__input mod__input" id="translation" required>
+    	</div>
+			<div class="lessonEdit__btns">
+				<button id="addBtn" class="btn__small btn__blue">ДОДАТИ ТЕРМІН</button>
+				<button id="backToLesson" class="btn__small btn__yellow" >ДОСТАТНЬО</button>
+			</div>
+			
+			<div id="wordsList" class="lessonEdit__items">
+				
+			</div>
+		</div>
+	</section>
+	<script src="../storage.js"></script>
+	<script src="../lessonedit3.js" defer></script>
+</body>
+</html>

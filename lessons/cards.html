@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="icon" href="../img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="../style.css">
+	<title>Test</title>
+</head>
+<body>
+
+	<!-- START common header -->
+	<header>
+		<div class="container">
+			<div class="header__logo"><a href="../index.html"><img src="../img/wordup.logo.png" alt="logo" class="header__img"></a></div>
+			<nav>
+				<ul class="header__ul">
+					<li><a href="../index.html">головна</a></li>
+					<li><a href="course.html">курси</a></li>
+					<li><a href="all.html">уроки</a></li>
+				</ul>
+			</nav>
+			<button class="header__lang">ukr</button>
+		</div>
+	</header>
+	<!-- END common header -->
+	
+	<section class="lessonEdit game">
+		<div class="container">
+      <!--  -->
+				<div class="lessonEdit__item lessonEdit__main game__main">
+				<h3 class="game__title">Вивчай терміни за допомогою карток.</h3>
+				<button id="back-btn" class="btn__small btn__blue back-btn">Назад до уроку</button>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="cards">
+		<div class="container">
+			<div class="cards__items course__items">
+				<div id="card" class="cards__cards">
+					<div class="cards__item cards__new cards__card" id="card-front">...</div>
+					<div class="cards__item cards__new cards__card none" id="card-back">...</div>
+				</div>
+				<div class="cards__cards-navigate">
+					<p class="card__cards-p">Нажміть на картку щоб побачити термін</p>
+					<button class="btn__smaller" id="btn-know">Знаю</button>
+    			<button class="btn__smaller two" id="btn-dont-know">Не знаю</button>
+					<div class="btn__smaller one" id="progress">Прогрес: 0%</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="../storage.js"></script>
+	<script src="../card1.js" defer></script>
+</body>
+</html>

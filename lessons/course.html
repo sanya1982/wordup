@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="icon" href="../img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="../style.css">
+	<title>Всі курси</title>
+</head>
+<body>
+
+	<!-- START common header -->
+	<header>
+		<div class="container">
+			<div class="header__logo"><a href="../index.html"><img src="../img/wordup.logo.png" alt="logo" class="header__img"></a></div>
+			<nav>
+				<ul class="header__ul">
+					<li><a href="../index.html">головна</a></li>
+					<li>курси</li>
+					<li><a href="all.html">уроки</a></li>
+				</ul>
+			</nav>
+			<button class="header__lang">ukr</button>
+		</div>
+	</header>
+	<!-- END common header -->
+
+	<section class="lessonEdit">
+		<div class="container">
+
+				<div class="lessonEdit__course lessonEdit__main">
+					<h4 class="addblue">Оберіть курс</h4>
+					<div class="addblue">
+						<select class="addyellow" id="courseSelect">
+							<option value="all">Всі курси</option>
+						</select>
+					</div>
+					<div></div>
+					<h4 class="addblue">Додати новий курс</h4>
+					<input class="addyellow" type="text" id="newCourse" placeholder="Назва курсу">
+					<button class="btn__smaller" id="addCourseBtn">Додати курс</button>
+				</div>
+		</div>
+	</section>
+
+	<section class="cards">
+		<div class="container">
+			<div id="lessonsContainer" class="cards__items course__items">				
+			</div>
+		</div>
+	</section>
+	<script src="../storage.js"></script>
+	<script src="../course.js"></script>
+	
+</body>
+</html>

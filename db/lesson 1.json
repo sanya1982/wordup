@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "term": "continent",
+    "translation": "континент",
+    "category": "english",
+    "state": false
+
+    
+  },
+  {
+    "id": 2,
+    "term": "capital",
+    "translation": "столиця",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 3,
+    "term": "island",
+    "translation": "острів",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 4,
+    "term": "planet",
+    "translation": "планета",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 5,
+    "term": "gravity",
+    "translation": "гравітація",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 6,
+    "term": "atom",
+    "translation": "атом",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 7,
+    "term": "language",
+    "translation": "мова",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 8,
+    "term": "sentence",
+    "translation": "речення",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 9,
+    "term": "word",
+    "translation": "слово",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 10,
+    "term": "doctor",
+    "translation": "лікар",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 11,
+    "term": "heart",
+    "translation": "серце",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 12,
+    "term": "hospital",
+    "translation": "лікарня",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 13,
+    "term": "computer",
+    "translation": "комп'ютер",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 14,
+    "term": "internet",
+    "translation": "інтернет",
+    "category": "english",
+    "state": false
+  },
+  {
+    "id": 15,
+    "term": "program",
+    "translation": "програма",
+    "category": "english",
+    "state": false
+  }
+]

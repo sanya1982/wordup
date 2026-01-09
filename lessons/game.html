@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="icon" href="../img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="../style.css">
+	<title>Test</title>
+</head>
+<body>
+
+	<!-- START common header -->
+	<header>
+		<div class="container">
+			<div class="header__logo"><a href="../index.html"><img src="../img/wordup.logo.png" alt="logo" class="header__img"></a></div>
+			<nav>
+				<ul class="header__ul">
+					<li><a href="../index.html">головна</a></li>
+					<li><a href="course.html">курси</a></li>
+					<li><a href="all.html">уроки</a></li>
+				</ul>
+			</nav>
+			<button class="header__lang">ukr</button>
+		</div>
+	</header>
+	<!-- END common header -->
+	
+	<section class="lessonEdit game">
+		<div class="container">
+      <div class="lessonEdit__item lessonEdit__main game__game">
+				<h3 class="game__title">Гра на швидкість.</h3>
+				<div id="result" class="h4"></div>
+				<button class="btn__small btn__blue back-btn game__game-btn">Назад до уроку</button>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="cards">
+		<div class="container">
+			<div class="cards__items course__items" id="game-container">
+				<div class="cards__cards">
+					<div class="cards__item cards__new cards__game">
+						<div id="term">Слово</div>
+						<div id="translation">Перевод</div>
+					</div>
+				</div>
+				<div class="cards__cards-navigate">
+					<button class="btn__smaller one" id="btn-start">Старт
+					</button>
+					<button class="btn__smaller" id="btn-yes">Правильно</button>
+    			<button class="btn__smaller two" id="btn-no">Неправильно</button>
+					<div class="btn__smaller one" id="stats">
+						<span>Очки: <span id="score">0</span></span>
+      <span>&emsp;&emsp;&emsp;Время: <span id="time">15</span> сек</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="../storage.js"></script>
+	<script src="../game1.js" defer></script>
+</body>
+</html>

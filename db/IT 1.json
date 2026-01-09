@@ -1,0 +1,62 @@
+[
+  {
+    "term": "Комп'ютер",
+    "translation": "Електронний пристрій для обробки даних",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "Програмування",
+    "translation": "Процес створення програм для комп'ютера",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "Алгоритм",
+    "translation": "Послідовність кроків для виконання завдання",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "База даних",
+    "translation": "Організована колекція даних для зберігання та доступу",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "Сайт",
+    "translation": "Колекція веб-сторінок, доступних в інтернеті",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "Сервер",
+    "translation": "Комп'ютер або програма, що надає послуги іншим пристроям",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "Мова програмування",
+    "translation": "Система інструкцій для написання програм",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "Фреймворк",
+    "translation": "Готова структура або набір бібліотек для розробки",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "Інтерфейс",
+    "translation": "Засіб взаємодії користувача з програмою або пристроєм",
+    "category": "IT",
+    "state": false
+  },
+  {
+    "term": "Код",
+    "translation": "Набір команд, написаний мовою програмування",
+    "category": "IT",
+    "state": false
+  }
+]
